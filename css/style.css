@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: #eaeaea;
+}
+header, main, footer {
+    padding-left: 350px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
+.text-center {
+      text-align: center;
+}
+.text-end {
+    text-align: end;
+}
+.text-bold {
+    font-weight: bold;
+}
+.logo-nav {
+    padding-top: 25px !important;
+    padding: 25px;
+}
+.nav-link {
+    padding: 0 25px;
+}
+.nav-link a.active {
+    background-color: #c32056;
+    color: white;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+.nav-link a:hover {
+    transition: .5s;
+    background-color: #c32056 !important;
+    color: white !important;
+}
+.nav-link a:hover i {
+    transition: .5s;
+    color: white !important;
+}
