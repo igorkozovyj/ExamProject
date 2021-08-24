@@ -11,31 +11,119 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col">
-            <ul id="slide-out" class="sidenav sidenav-fixed z-depth-5">
-                <li>
-                    <h6 class="logo-nav text-bold">Company</h6>
-                    <hr>
-                </li>
-                <li class="nav-link"><a href="#!" class="white-text active"><i
-                            class="white-text material-icons">dashboard</i>Dashboard</a></li>
-                <li class="nav-link"><a href="#!" class="grey-text"><i
-                            class="grey-text material-icons">account_box</i>User Profile</a></li>
-                <li class="nav-link"><a href="#!" class="grey-text"><i
-                            class="grey-text material-icons">location_on</i>Maps</a></li>
-                <li class="nav-link"><a href="#!" class="grey-text"><i
-                            class="grey-text material-icons">check</i>Notifications</a></li>
-                <li class="nav-link"><a href="#!" class="grey-text"><i
-                            class="grey-text material-icons">language</i>Support</a></li>
-            </ul>
+    <ul id="slide-out" class="sidenav sidenav-fixed z-depth-5">
+        <li>
+            <h6 class="logo-nav text-bold">Company</h6>
+            <hr>
+        </li>
+        <li class="nav-link"><a href="#!" class="white-text active"><i
+                    class="white-text material-icons">dashboard</i>Dashboard</a></li>
+        <li class="nav-link"><a href="#!" class="grey-text"><i class="grey-text material-icons">account_box</i>User
+                Profile</a></li>
+        <li class="nav-link"><a href="#!" class="grey-text"><i class="grey-text material-icons">location_on</i>Maps</a>
+        </li>
+        <li class="nav-link"><a href="#!" class="grey-text"><i
+                    class="grey-text material-icons">check</i>Notifications</a></li>
+        <li class="nav-link"><a href="#!" class="grey-text"><i class="grey-text material-icons">language</i>Support</a>
+        </li>
+    </ul>
+
+    <main class="adminpanel">
+        <div class="title-block">
+            <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i
+                    class="material-icons black-text">menu</i></a>
+            <p class="text-bold title">Dashboard</p>
         </div>
+        <div class="row sect-1">
+            <div class="col s12 m6 xl3">
+                <div class="card horizontal">
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <div class="img-1">
+                                <object type="image/svg+xml" class="green darken-1 white-text z-depth-1"
+                                    data="./icons/data_white.svg" width="70" height="70"></object>
+                            </div>
+                            <div class="texts text-end">
+                                <p class="title-space">Used Space</p>
+                                <p class="descr">49/50 GB</p>
+                            </div>
+                        </div>
+                        <hr width="95%">
+                        <div class="card-footer">
+                            <i class="grey-text material-icons">warning</i><a href="#" class="grey-text">Get more
+                                space...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col s12 m6 xl3">
+                <div class="card horizontal">
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <div class="img-1">
+                                <object type="image/svg+xml" class="yellow darken-3 white-text z-depth-1"
+                                    data="./icons/shop_white.svg" width="70" height="70"></object>
+                            </div>
+                            <div class="texts text-end">
+                                <p class="title-space">Revenue</p>
+                                <p class="descr">$ 34,245</p>
+                            </div>
+                        </div>
+                        <hr width="95%">
+                        <div class="card-footer">
+                            <i class="grey-text material-icons">date_range</i><a href="#" class="grey-text">Last 24
+                                Hours</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        
+            <div class="col s12 m6 xl3">
+                <div class="card horizontal">
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <div class="img-1">
+                                <object type="image/svg+xml" class="light-blue darken-4 white-text z-depth-1"
+                                    data="./icons/tag_white.svg" width="70" height="70"></object>
+                            </div>
+                            <div class="texts text-end">
+                                <p class="title-space">Fixed Issues</p>
+                                <p class="descr">75</p>
+                            </div>
+                        </div>
+                        <hr width="95%">
+                        <div class="card-footer">
+                            <i class="grey-text material-icons">file_download</i><a href="#" class="grey-text">Tracked
+                                from Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-    </div>
+            <div class="col s12 m6 xl3">
+                <div class="card horizontal">
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <div class="img-1">
+                                <object type="image/svg+xml" class="pink darken-2 white-text z-depth-1"
+                                    data="./icons/paperplane_white.svg" width="70" height="70"></object>
+                            </div>
+                            <div class="texts text-end">
+                                <p class="title-space">Followers</p>
+                                <p class="descr">+ 245</p>
+                            </div>
+                        </div>
+                        <hr width="95%">
+                        <div class="card-footer">
+                            <i class="grey-text material-icons">access_time</i><a href="#" class="grey-text">Just
+                                updated</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

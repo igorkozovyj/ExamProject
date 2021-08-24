@@ -41,3 +41,54 @@ header, main, footer {
     transition: .5s;
     color: white !important;
 }
+main .title{
+    font-size: 18px;
+    margin: 30px 0;
+}
+.card-footer {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px !important;
+}
+.card-footer a, .card-footer i {
+    font-size: 13px;
+    margin-right: 5px;
+}
+.img-1 object {
+    position: relative;
+    top: -38px;
+    font-size: 45px;
+    padding: 15px;
+}
+.sect-1 .card-content {
+    display: flex;
+    justify-content: space-between;
+}
+.texts p.title-space {
+    font-size: 13px;
+}
+.texts p.descr {
+    margin-top: 0;
+    font-size: 19px;
+    font-weight: 500;
+}
+.sect-1 .card .card-content {
+    padding-bottom: 0 !important;
+}
+.adminpanel .card {
+    background-color: #f6f6f6;
+}
+.title-block {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.title-block p {
+    margin-left: 10px;
+}
+.title-block i {
+    font-weight: bold;
+}
