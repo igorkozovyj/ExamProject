@@ -107,3 +107,54 @@ main .title{
 .sect-2 .card-content {
     padding-bottom: 0 !important;
 }
+.section-3 .controll-block {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -38px;
+    padding: 15px;
+}
+.section-3 .btn-controll {
+    margin-left: 10px;
+}
+.section-3 .btn-controll a.active {
+    background-color: rgba(255, 255, 255, 0.267) !important;
+}
+.section-3 .controll-button img {
+    width: 25px;
+}
+.controll-blocks {
+    position: relative;
+    top: -38px;
+    padding: 15px;
+}
+.section-3 .card-controll-1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+.section-3 .controll-button a:first-child {
+    margin-right: 7px;
+}
+.texts > div {
+    margin-top: 18px;
+}
+.mt-0 {
+    margin-top: 0px !important;
+}
+.controll-blocks p:first-child{
+    font-size: 15px;
+}
+.controll-blocks p:last-child{
+    font-size: 12px;
+}
+.bl-2 {
+    height: 292px !important;
+}
+.bl-2 table {
+    position: relative;
+    top: -23px;
+}
+.bl-2 table tr:last-child {
+    border-bottom: 0;
+}
