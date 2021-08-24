@@ -66,10 +66,10 @@ main .title{
     display: flex;
     justify-content: space-between;
 }
-.texts p.title-space {
+.sect-1 .texts p.title-space {
     font-size: 13px;
 }
-.texts p.descr {
+.sect-1 .texts p.descr {
     margin-top: 0;
     font-size: 19px;
     font-weight: 500;
@@ -91,4 +91,19 @@ main .title{
 }
 .title-block i {
     font-weight: bold;
+}
+.sect-2 img {
+    position: relative;
+    top: -38px;
+    padding: 15px;
+}
+.sect-2 .texts p.title-space {
+    font-size: 18px;
+}
+.sect-2 .texts p.descr {
+    margin-top: 0;
+    font-size: 14px;
+}
+.sect-2 .card-content {
+    padding-bottom: 0 !important;
 }
