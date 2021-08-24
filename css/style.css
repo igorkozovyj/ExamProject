@@ -158,3 +158,22 @@ main .title{
 .bl-2 table tr:last-child {
     border-bottom: 0;
 }
+.link .ml-2 {
+    margin-left: 20px;
+}
+footer {
+    margin: 25px 0;
+}
+footer hr {
+    margin-bottom: 25px;
+}
+footer .text-w {
+    font-weight: 600;
+}
+footer .footers {
+    display: flex;
+    justify-content: space-between;
+}
+footer .made {
+    margin-right: 10px;
+}
