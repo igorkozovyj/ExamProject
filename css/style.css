@@ -10,6 +10,13 @@ header, main, footer {
     header, main, footer {
       padding-left: 0;
     }
+
+  }
+  
+  @media only screen and (min-width: 900px) {
+    .bl-2 {
+        height: 292px !important;
+    }
   }
 .text-center {
       text-align: center;
@@ -148,9 +155,7 @@ main .title{
 .controll-blocks p:last-child{
     font-size: 12px;
 }
-.bl-2 {
-    height: 292px !important;
-}
+
 .bl-2 table {
     position: relative;
     top: -23px;
