@@ -177,3 +177,7 @@ footer .footers {
 footer .made {
     margin-right: 10px;
 }
+.profile .titles-block {
+    position: relative;
+    top: -40px;
+}
